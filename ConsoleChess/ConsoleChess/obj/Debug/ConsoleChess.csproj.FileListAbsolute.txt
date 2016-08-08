@@ -1,0 +1,9 @@
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\bin\Debug\ConsoleChess.exe.config
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\bin\Debug\ConsoleChess.exe
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\bin\Debug\ConsoleChess.pdb
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\obj\Debug\ConsoleChess.csprojResolveAssemblyReference.cache
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\obj\Debug\ConsoleChess.exe
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\ConsoleChess\obj\Debug\ConsoleChess.pdb
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\bin\Debug\ConsoleChess.exe.config
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\obj\Debug\ConsoleChess.exe
+D:\ProjectsClass\Chess\ConsoleChess\ConsoleChess\obj\Debug\ConsoleChess.pdb
