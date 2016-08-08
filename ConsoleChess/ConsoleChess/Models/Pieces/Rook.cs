@@ -8,5 +8,9 @@ namespace ConsoleChess.Models.Pieces
 {
     class Rook : ChessPiece
     {
+        public Rook()
+        {
+            Type = "R";
+        }
     }
 }

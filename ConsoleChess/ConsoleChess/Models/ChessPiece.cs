@@ -9,14 +9,23 @@ namespace ConsoleChess.Models
 {
     public class ChessPiece
     {
-        public string Name { get; set; }
+        public string Type { get; set; }
         public Colors Color { get; set; }
         public Position[] PossibleMoves { get; private set; }
         
 
         public override string ToString()
         {
-            return Name;
+            string ret = Type;
+            if(Color == Colors.Light)
+            {
+                ret += "l";
+            }
+            else
+            {
+                ret += "d";
+            }
+            return ret;
         }
     }
 }

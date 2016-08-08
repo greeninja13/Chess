@@ -40,6 +40,21 @@ namespace ConsoleChess.Models
             return true;
         }
 
+        public bool MoveAndTake(Position initial, Position final)
+        {
+            int[] second = final.Indexes;
+            board[second[0], second[1]].Piece = null;
+            MovePiece(initial, final);
+            return true;
+        }
+
+        public bool MoveTwo(Position initial1, Position final1, Position initial2, Position final2)
+        {
+            MovePiece(initial1, final1);
+            MovePiece(initial2, final2);
+            return true;
+        }
+
         public override string ToString()
         {
             string boardString = "-------------------------\n";

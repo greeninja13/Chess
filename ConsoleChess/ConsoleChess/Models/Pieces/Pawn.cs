@@ -10,6 +10,9 @@ namespace ConsoleChess.Models.Pieces
     {
         public bool FirstMove { get; private set; } = true;
 
-        
+        public Pawn()
+        {
+            Type = "P";
+        }
     }
 }

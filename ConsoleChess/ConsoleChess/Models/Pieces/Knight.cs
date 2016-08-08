@@ -8,5 +8,9 @@ namespace ConsoleChess.Models.Pieces
 {
     class Knight : ChessPiece
     {
+        public Knight()
+        {
+            Type = "N";
+        }
     }
 }

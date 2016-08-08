@@ -1,3 +1,0 @@
-//These are the directives that chess will use.
-//
-Qld1
