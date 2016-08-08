@@ -9,10 +9,15 @@ namespace ConsoleChess.Tools
 {
     public class FileParser
     {
-        public string[] ParseFile(string filename)
+        public string[] ParseFile(string path)
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), filename);
             StreamReader file = new StreamReader(path);
+            string currentLine = "";
+            while ((currentLine = file.ReadLine()) != null)
+            {
+                Console.WriteLine(currentLine);
+            }
+
 
             return new string[0];
         }
