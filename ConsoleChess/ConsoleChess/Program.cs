@@ -1,4 +1,5 @@
 ﻿using ConsoleChess.Models;
+using ConsoleChess.Models.Pieces;
 using ConsoleChess.Tools;
 using System;
 using System.Collections.Generic;
@@ -24,7 +25,22 @@ namespace ConsoleChess
 
                 Console.WriteLine("Using File: " +path);
                 fP.ParseFile(path);
+
+                ChessPiece pawn = new Pawn() { Color = Enums.Colors.Dark, Name="Pd"};
+                Position a8 = new Position(0, 0);
+                board.AddPiece(pawn, a8);
+
                 Console.WriteLine(board);
+
+                Console.ReadLine();
+
+                Position d5 = new Position(3, 3);
+
+                board.MovePiece(a8, d5);
+
+                Console.WriteLine(board);
+
+                
             }
             else
             {
