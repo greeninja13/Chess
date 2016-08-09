@@ -106,8 +106,8 @@ namespace ConsoleChess.Tools
             int y = 0;
             int.TryParse(pos[1].ToString(), out y);
 
-            y = 8 - y;
             x = pos[0] - 97;
+            y = 8 - y;
 
             return new Position(x, y);
         }

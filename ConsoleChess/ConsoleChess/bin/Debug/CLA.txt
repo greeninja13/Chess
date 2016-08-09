@@ -1,0 +1,37 @@
+//These are the directives that chess will use.
+
+Rla1
+Rlh1
+Nlb1
+Nlg1
+Blc1
+Blf1
+Qld1
+Kle1
+Pla2
+Plh2
+Plb2
+Plg2
+Plc2
+Plf2
+Pld2
+Ple2
+Rda8
+Rdh8
+Ndb8
+Ndg8
+Bdc8
+Bdf8
+Qdd8
+Kde8
+Pda7
+Pdh7
+Pdb7
+Pdg7
+Pdc7
+Pdf7
+Pdd7
+Pde7
+
+e2 e4 g2 g4 
+g1 h3 
